@@ -1,0 +1,102 @@
+.ticket-booking-card {
+    padding: 16px;
+    color: var(--white);
+    background-color: var(--gray);
+  }
+  
+  @media (max-width: 739px) {
+    .ticket-booking-card {
+      padding: 12px;
+    }
+  }
+  
+  .ticket-booking-card__media {
+    object-fit: contain;
+    height: 260px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  
+  @media (max-width: 1023px) {
+    .ticket-booking-card__media {
+      object-fit: cover;
+      height: auto;
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 739px) {
+    .ticket-booking-card__media {
+      width: 80%;
+    }
+  }
+  
+  .ticket-booking-card__content {
+    font-size: 13px;
+    padding: 0;
+  }
+  
+  .ticket-booking-card__movie-name {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  @media (max-width: 739px) {
+    .ticket-booking-card__movie-name {
+      font-size: 20px;
+    }
+  }
+  
+  .ticket-booking-card__movie-age-limit-label {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 6px;
+    background-color: var(--primary);
+    color: var(--black);
+  }
+  
+  .ticket-booking-card__movie-age-limit-content {
+    font-size: 11px;
+    color: var(--primary);
+  }
+  
+  .ticket-booking-card__booking-details {
+    padding: 4px 0;
+  }
+  
+  .ticket-booking-card__divider {
+    background-color: var(--light-gray);
+  }
+  
+  .ticket-booking-card__total {
+    font-size: 17px;
+  }
+  
+  @media (max-width: 739px) {
+    .ticket-booking-card__total {
+      font-size: 15px;
+    }
+  }
+  
+  .ticket-booking-card__btn-booking {
+    margin-top: 20px;
+    padding: 8px 32px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--black);
+    background-color: var(--primary);
+    border-radius: 0;
+  }
+  
+  @media (max-width: 739px) {
+    .ticket-booking-card__btn-booking {
+      font-size: 13px;
+    }
+  }
+  
+  .ticket-booking-card__btn-booking:hover {
+    background-color: var(--hover-primary);
+  }
+  

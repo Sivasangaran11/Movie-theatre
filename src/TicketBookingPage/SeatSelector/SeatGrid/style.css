@@ -1,0 +1,39 @@
+.indicator-wrapper {
+    cursor: pointer;
+  }
+  
+  .indicator-wrapper--left {
+    margin-left: -15px;
+  }
+  
+  .indicator-wrapper--right {
+    margin-left: 15px;
+  }
+  
+  .seat-wrapper {
+    width: 22px;
+    cursor: pointer;
+  }
+  
+  .seat-wrapper.sold {
+    cursor: no-drop;
+  }
+  
+  .seat-wrapper.sold > .seat {
+    pointer-events: none;
+  }
+  
+  .seat,
+  .indicator {
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+  }
+  
+  .indicator {
+    color: var(--white);
+    border: 0.5px solid var(--white);
+  }
+  
